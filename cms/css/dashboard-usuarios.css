@@ -1,0 +1,176 @@
+.list-users {
+    padding-top: 40px;
+    border-top: 3px solid #111;
+}
+
+.list-users h2{
+    font-size: 2.1rem;
+
+}
+
+.container-title-button {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+}
+
+.button-modal {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    font-size: 1.2rem;
+    color: #fff;
+
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px;
+    background-color: #111;
+
+    transition: all 0.3s;
+}
+
+.button-modal:hover {
+    color: #111;
+
+    cursor: pointer;
+
+    border: solid 1px #111;
+    background-color: #fff;
+}
+
+
+
+.form-container {
+    width: 100%;
+
+    display: none;
+
+    padding-top: 60px;
+    margin-bottom: 80px;
+}
+
+.form-container.active {
+    display: block;
+}
+
+form {
+    width: 90%;
+    min-height: 600px;
+
+    margin: auto;
+    padding: 40px 60px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    border: 3px solid #000;
+}
+
+form h2 {
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+
+.form-group {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    margin-bottom: 10px;
+}
+
+.form-group input {
+    height: 50px;
+
+    font-size: 1.2rem;
+
+    padding: 0 20px;
+
+    border: 1px solid #000;
+}
+
+.form-group-row {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+}
+
+.form-group.sexo {
+    width: 40%;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+
+.form-group.sexo span{
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    margin-bottom: 10px;
+    align-self: flex-start;
+}
+
+.input-sexo {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-group.sexo label{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-group.sexo label input{
+    width: 20px;
+    height: 20px;
+}
+
+.form-group-button{
+    width: 100%;
+
+    padding-top: 40px;
+
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+.form-group-button button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    padding: 10px 35px;
+
+    transition: all 0.3s;
+
+    border-radius: 10px;
+    background-color: #000;
+}
+
+.form-group-button button:hover {
+    cursor: pointer;
+    color: #111;
+
+    outline: solid 1px #111;
+    background-color: #fff;
+}
